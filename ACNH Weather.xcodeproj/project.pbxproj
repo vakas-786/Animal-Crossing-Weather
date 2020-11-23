@@ -13,11 +13,11 @@
 		ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B6231BBFAF00365194 /* Main.storyboard */; };
 		ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B9231BBFB300365194 /* Assets.xcassets */; };
 		ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */; };
+		F1485076256C7BC000D8C762 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1485075256C7BC000D8C762 /* WeatherModel.swift */; };
 		F1D306D7255F5DB10013EA44 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D306D6255F5DB10013EA44 /* AnimalData.swift */; };
 		F1D306DB255F5DC60013EA44 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D306DA255F5DC60013EA44 /* AnimalModel.swift */; };
 		F1D306DF255F5ECA0013EA44 /* AnimalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D306DE255F5ECA0013EA44 /* AnimalManager.swift */; };
 		F1F40854255CFDF30077F176 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F40853255CFDF30077F176 /* WeatherData.swift */; };
-		F1F40856255CFE380077F176 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F40855255CFE380077F176 /* WeatherModel.swift */; };
 		F1F40858255CFE660077F176 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F40857255CFE660077F176 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +43,11 @@
 		ADAA27B9231BBFB300365194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAA27BC231BBFB300365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAA27BE231BBFB300365194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1485075256C7BC000D8C762 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = ../../../WeatherModel.swift; sourceTree = "<group>"; };
 		F1D306D6255F5DB10013EA44 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
 		F1D306DA255F5DC60013EA44 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		F1D306DE255F5ECA0013EA44 /* AnimalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalManager.swift; sourceTree = "<group>"; };
 		F1F40853255CFDF30077F176 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-		F1F40855255CFE380077F176 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Weather/Models/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 		F1F40857255CFE660077F176 /* WeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F1F40853255CFDF30077F176 /* WeatherData.swift */,
-				F1F40855255CFE380077F176 /* WeatherModel.swift */,
+				F1485075256C7BC000D8C762 /* WeatherModel.swift */,
 				F1D306D6255F5DB10013EA44 /* AnimalData.swift */,
 				F1D306DA255F5DC60013EA44 /* AnimalModel.swift */,
 			);
@@ -198,9 +198,9 @@
 				F1D306DF255F5ECA0013EA44 /* AnimalManager.swift in Sources */,
 				F1D306DB255F5DC60013EA44 /* AnimalModel.swift in Sources */,
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
+				F1485076256C7BC000D8C762 /* WeatherModel.swift in Sources */,
 				F1F40854255CFDF30077F176 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
-				F1F40856255CFE380077F176 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 				F1D306D7255F5DB10013EA44 /* AnimalData.swift in Sources */,
 			);
