@@ -8,6 +8,7 @@ protocol WeatherManagerDelegate {
 
 struct WeatherManager {
     let weatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=9d4a65cc6288adbe9d0af93e9195f021&units=imperial"
+
    
     var delegate: WeatherManagerDelegate?
 
@@ -21,9 +22,7 @@ struct WeatherManager {
         let urlString = "\(weatherUrl)&lat=\(latitude)&lon=\(longitude)"
         fetchUrl(with: urlString)
     }
-    
-    
-    
+
     
     func fetchUrl(with urlString: String) {
         if let url = URL(string: urlString) {
@@ -53,6 +52,7 @@ struct WeatherManager {
             let temp = decodedData.main.temp
             let name = decodedData.name
             
+
             
             let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
             return weather
